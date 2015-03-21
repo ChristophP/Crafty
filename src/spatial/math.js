@@ -702,7 +702,7 @@ Crafty.math.Matrix2D = (function () {
      * @param {Number=0} e
      * @param {Number=0} f
      */
-    Matrix2D = function (a, b, c, d, e, f) {
+    function Matrix2D(a, b, c, d, e, f) {
         if (a instanceof Matrix2D) {
             this.a = a.a;
             this.b = a.b;
@@ -719,7 +719,7 @@ Crafty.math.Matrix2D = (function () {
             this.f = f;
         } else if (arguments.length > 0)
             throw "Unexpected number of arguments for Matrix2D()";
-    }; // class Matrix2D
+    } // class Matrix2D
 
     Matrix2D.prototype.a = 1;
     Matrix2D.prototype.b = 0;

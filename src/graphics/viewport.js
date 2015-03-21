@@ -392,7 +392,7 @@ Crafty.extend({
             var active = false,
                 dragging = false,
                 lastMouse = {};
-            old = {};
+
             function stopLook(){
                 dragging = false;
             }
